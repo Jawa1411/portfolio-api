@@ -23,8 +23,8 @@ namespace Portfolio.Api.Controllers
                 ))
                 .ToArray();
 
-            //return NotFound();
-            return Ok(new { Data = forecast });
+            return NotFound();
+            // return Ok(new { Data = forecast });
         }
     }
 }
